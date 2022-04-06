@@ -8,7 +8,7 @@ public class Main {
         File file = null;
         FileInputStream fis = null;
         try{
-            file = new File("C:\\Users\\srikar\\IdeaProjects\\MyFirstFileInputStream\\src\\com\\company\\prompt.txt");
+            file = new File("prompt.txt");
             fis = new FileInputStream(file);
             int inp = fis.read();
             String inpStr = new String();
